@@ -1,0 +1,25 @@
+// ul,
+// ol,
+// dd
+// 	margin-left				2 * $spacing
+// 	margin-left				2 * $spacing / $base-font-size
+
+// Remove extra vertical spacing when nesting lists.
+
+li
+	> ul,
+	> ol 
+		margin-bottom		0
+
+.list--unstyled
+	list-style 				none
+	margin 					0
+	padding 				0
+
+	li
+		padding 			0
+
+.list--inline
+	li
+		display 			inline-block
+		margin-left 		-4px

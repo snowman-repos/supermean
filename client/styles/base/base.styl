@@ -1,0 +1,24 @@
+html
+	height 				100%
+
+html,
+body
+	background-color	lightest-grey
+	background 			lightest-grey url("../images/background.jpg") no-repeat 0 0
+	background-size		100% 100%
+	base-type()
+	color				$text-colour
+	min-height			100%
+	overflow-y			scroll
+
+body > svg
+	display 			none
+
+*
+	&,
+	&:before,
+	&:after
+		box-sizing		border-box
+
+.muted
+	opacity 			0.7

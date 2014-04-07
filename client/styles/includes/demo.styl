@@ -1,0 +1,95 @@
+normalize()
+base()
+
+.main.menu
+	background 				#ecf0f1
+	border-bottom 			1px solid darken(#ecf0f1, 20%)
+	list-style 				none
+	margin 					0
+	padding 				0
+
+	li
+		border-right 		1px solid darken(#ecf0f1, 20%)
+		display 			inline-block
+		margin 				0
+		padding 			0
+
+		&.active
+			background 		rgba(white, 25%)
+
+	a
+		background 			transparent
+		color 				blue
+		display 			block
+		padding 			0.5em
+		text-decoration 	none
+
+		&:active,
+		&:focus,
+		&:hover
+			background 		rgba(white, 50%)
+			color 			darken(@color, 20%)
+			transition 		0.2s all ease-in-out
+
+.hero
+	background 				green
+	color 					white
+	margin 					1em
+	padding 				2em
+
+	@media(min-width: 600px)
+		padding 			1em
+
+	h1
+		font-size 			3em
+		margin 				0
+
+		@media(min-width: 600px)
+			font-size 		6em
+
+	h4
+		font-size 			1.5em
+		margin 				0
+
+h1,
+h2,
+h4
+	font-weight 			300
+
+.floated.right
+	float 					right
+
+.tagline
+	margin 					0 0 1em 0
+
+.button
+	simple-button(black, size = 'medium')
+
+	&:active,
+	&:focus,
+	&:hover
+		background 			grey
+		transition 			0.2s all ease-in-out
+
+.page-content
+	padding 				2em
+
+	ul
+		list-style-position inside
+		margin 				0
+		padding 			0
+
+	li
+		border-bottom 		1px solid #e9e9e9
+
+	h4
+		margin-bottom 		0.5em
+
+	p
+		margin 				0 0 1em 0
+
+.footer
+	background 				#222
+	padding 				0.3em 0
+	text-align 				center
+	width 					100%

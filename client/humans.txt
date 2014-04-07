@@ -1,0 +1,29 @@
+This app was built using the *supermean yeoman generator*.
+https://github.com/darryl-snow/supermean
+
+The generator was built by Darryl Snow (http://theweb.expert) 
+and based heavily on other generators such as 
+generator-angular-fullstack (https://github.com/DaftMonk/generator-angular-fullstack) and mean.io (http://www.mean.io/#!/).
+
+/* TEAM */
+
+Title: Darryl Snow, Freelance web designer/developer
+Site: http://theweb.expert
+Weibo / Wechat: xuedalong
+Location: China / the internet
+
+/* THANKS */
+
+Years of inspiration and insight
+
+♥ Chris Coyier
+♥ Dave Rupert
+♥ Paul Boag
+♥ Harry Roberts
+♥ Alex McCaw
+
+/* SITE */
+Last update: 2014/04/07
+Standards: HTML5, CSS3, ES6
+Components: ExpressJS, AngularJS
+Software: MongoDB, NodeJS
